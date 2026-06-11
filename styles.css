@@ -1,0 +1,93 @@
+/* -- Variables globales -- */
+:root {
+    --fondo-pagina:#f0f2f5;
+    --fondo-tarjeta:#ffffff;
+    --color-texto:    #1a1a2e;
+    --color-tag:      #e8f4fd;
+    --color-tag-texto:#2d6a9f;
+    --color-boton:    #2d6a9f;
+    --sombra:         0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* -- Reset basico -- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  -- Página -- */
+
+body {
+    background-color: var(--fondo-pagina);
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -- Tarjeta -- */
+.tarjeta {
+    background-color: var(--fondo-tarjeta);
+    color: var(--color-texto);
+    border-radius: 16px;
+    box-shadow: var(--sombra);
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* -- Avatar -- */
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #e8f4fd;
+    margin-bottom: 16px;
+}
+
+/* -- Tags -- */
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.tag {
+    background-color: var(--color-tag);
+    color: var(--color-tag-texto);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* -- Botón -- */
+.boton {
+    background-color: var(--color-boton);
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: opacity 0.2s;
+}
+
+.boton:hover {
+    opacity: 0.85;
+}
+
+/* -- Modo oscuro -- */
+.dark {
+    --fondo-pagina: #0f0f1a;
+    --fondo-tarjeta: #1a1a2e;
+    --color-texto: #e8e8f0;
+    --color-tag: #2d2d4e;
+    --color-tag-texto: #a8c8f0;
+    --color-boton: #4a90d9;
+    --sombra: 0 4px 20px rgba(0,0,0,0.4);
+}
