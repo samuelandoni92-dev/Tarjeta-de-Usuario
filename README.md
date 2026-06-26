@@ -28,7 +28,7 @@ Este fue mi primer proyecto fuera del curso. Practiqué cómo conectar HTML, CSS
 ## Cómo correrlo localmente
 
 ```bash
-git clone https://github.com/tunombre/tarjeta-perfil.git
+git clone https://samuelandoni92-dev.github.io/Tarjeta-de-Usuario/
 cd tarjeta-perfil
 ```
 
