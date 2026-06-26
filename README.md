@@ -2,7 +2,7 @@
 
 Tarjeta de presentación con cambio de tema claro/oscuro, construida con HTML, CSS y JavaScript puro.
 
-🔗 **[Ver demo en vivo](https://tunombre.github.io/tarjeta-perfil)**
+🔗 **[Ver demo en vivo](https://samuelandoni92-dev.github.io/Tarjeta-de-Usuario/)**
 
 ## Capturas
 
